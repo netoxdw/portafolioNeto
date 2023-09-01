@@ -41,27 +41,49 @@
                 <div class="abaut-col-2">
                     <h1 class="sub-title">Abaut Me</h1>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, omnis quam! Maxime quod
-                        mollitia, earum quidem accusamus cumque adipisci repellendus repellat quibusdam veritatis
-                        eveniet possimus provident sequi, perspiciatis incidunt accusantium suscipit atque aut animi
-                        commodi. Dicta non aliquam quis debitis obcaecati vitae ducimus eum maxime reiciendis
-                        dignissimos tempora, blanditiis commodi veritatis, saepe eaque doloribus praesentium aperiam
-                        odit! Suscipit accusantium perspiciatis ad sunt minus voluptatem ipsa est necessitatibus nulla
-                        odio tempore ullam, a voluptatibus iure praesentium aliquid animi modi aut fuga vitae numquam,
-                        maiores alias magnam itaque? Repellat culpa nemo maxime, deleniti magni, mollitia nulla rerum
-                        vel nihil, iste molestiae voluptatem.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ipsam, nemo alias doloribus
+                        facere quasi, minus cupiditate assumenda, harum sint itaque. Aliquid rem praesentium dicta
+                        possimus atque voluptatum dolore repudiandae quasi dolorum harum facere labore temporibus
+                        nesciunt saepe amet officiis, sit quas itaque assumenda corrupti adipisci ab perferendis
+                        similique? Sunt?
                     </p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link">Skills</p>
-                        <p class="tab-links">Experience</p>
-                        <p class="tab-links">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiece')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Wen Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Django API</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiece">
+                        <ul>
+                            <li><span>2023</span><br>Designing Web Landing Page</li>
+                            <li><span>2022</span><br>Web app Development</li>
+                            <li><span>2021</span><br>Developer Jr</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Instito Politécnico Nacional</li>
+                            <li><span>2021</span><br>BEDU Full Stack Python</li>
+                            <li><span>2017</span><br>Bachillerato</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
-
         </div>
     </section>
+
+
+
+    <script src="./app.js">
+    </script>
 </body>
 
 </html>
